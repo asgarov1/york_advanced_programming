@@ -2,6 +2,7 @@ def left_side():
     for i in range(1, 5):
         print('*' * i)
 
+
 def right_side():
     for i in range(1, 5):
         print(('*' * i).rjust(4, ' '))
