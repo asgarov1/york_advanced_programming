@@ -1,11 +1,10 @@
-###Exercise 1
-# LIFO & FIFO
-
-def lifoPop(my_list):
+def lifo_pop(my_list):
     my_list.pop()
 
-def fifoPop(my_list):
+
+def fifo_pop(my_list):
     my_list.pop(0)
+
 
 def program(pop_method):
     my_list = []
@@ -18,8 +17,7 @@ def program(pop_method):
 
         option = int(input())
         if option == 1:
-            print('Enter the number')
-            my_list.append(int(input()))
+            my_list.append(int(input('Enter the number')))
         elif option == 2:
             pop_method(my_list)
         elif option == 3:
@@ -28,5 +26,5 @@ def program(pop_method):
             return
 
 
-#program(fifoPop)
-program(lifoPop)
+# program(fifoPop)
+program(lifo_pop)

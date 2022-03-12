@@ -1,12 +1,12 @@
 FIRST_LINE = ' M   T   W  Th   F   S  Su'
 
 
-def getCalendar(days, startDay):
+def create_calendar(number_of_days, start_day):
     result = FIRST_LINE + '\n'
 
-    initial_spaces = ' ' * ((startDay - 1) * 4)
+    initial_spaces = ' ' * ((start_day - 1) * 4)
     line = initial_spaces
-    for i in range(1, days + 1):
+    for i in range(1, number_of_days + 1):
         if len(line) >= len(FIRST_LINE):
             result += line + '\n'
             line = ''
@@ -16,10 +16,6 @@ def getCalendar(days, startDay):
     return result
 
 
-print('Please input number of days in the calendar:');
-days = int(input())
-
-print('Day of the week to start with:\n')
-startDay = int(input())
-
-print(getCalendar(days, startDay))
+days = int(input('Please input number of days in the calendar: '))
+startDay = int(input('Day of the week to start with: '))
+print(create_calendar(days, startDay))
