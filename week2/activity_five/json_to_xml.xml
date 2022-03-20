@@ -1,0 +1,63 @@
+<students>
+    <student>
+        <id>897654</id>
+        <age>32</age>
+        <city>London</city>
+        <fullName title="Mrs">
+            <firstName>Lisa</firstName>
+            <surname>Penny</surname>
+            <other num="1">
+                <name>Melanie</name>
+            </other>
+        </fullName>
+    </student>
+    <student>
+        <id>786789</id>
+        <age>38</age>
+        <city>Paris</city>
+        <fullName title="Mr">
+            <firstName>Lorenzo</firstName>
+            <surname>Dubois</surname>
+            <other num="2">
+                <name>Ruelle</name>
+                <name>Garlen</name>
+            </other>
+        </fullName>
+    </student>
+    <student>
+        <id>546854</id>
+        <age>25</age>
+        <city>Tokyo</city>
+        <fullName title="Mr">
+            <firstName>Takeshi</firstName>
+            <surname>Tanaka</surname>
+            <other num="1">
+                <name/>
+            </other>
+        </fullName>
+    </student>
+    <student>
+        <id>238751</id>
+        <age>27</age>
+        <city>Mumbai</city>
+        <fullName title="Mr">
+            <firstName>Tanveer</firstName>
+            <surname>Patel</surname>
+            <other num="1">
+                <name>Vihaan</name>
+            </other>
+        </fullName>
+    </student>
+    <student>
+        <id>894573</id>
+        <age>23</age>
+        <city>Lisbon</city>
+        <fullName title="Miss">
+            <firstName>Iolanda</firstName>
+            <surname>Melo</surname>
+            <other num="1">
+                <name>Bianca</name>
+            </other>
+        </fullName>
+    </student>
+</students>
