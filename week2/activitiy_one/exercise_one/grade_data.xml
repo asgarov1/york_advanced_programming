@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE grade_data [
+        <!ELEMENT grade_data (subject|grade)*>
+        <!ELEMENT subject (#PCDATA)>
+        <!ATTLIST subject
+                title CDATA #REQUIRED
+                department CDATA #REQUIRED>
+        <!ELEMENT grade (id|student|test1|test2|essay1|essay2|activity1|activity2|essay3)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT student (#PCDATA)>
+        <!ELEMENT test1 (#PCDATA)>
+        <!ELEMENT test2 (#PCDATA)>
+        <!ELEMENT essay1 (#PCDATA)>
+        <!ELEMENT essay2 (#PCDATA)>
+        <!ELEMENT activity1 (#PCDATA)>
+        <!ELEMENT activity2 (#PCDATA)>
+        <!ELEMENT essay3 (#PCDATA)>
+        ]>
+<grade_data>
+    <subject title="English Assignment 1" department="IT">Mathematics</subject>
+    <grade>
+        <id>16430122-1521</id>
+        <student>Pace, Camden G.</student>
+        <test1>54%</test1>
+        <test2>63%</test2>
+        <essay1>C+</essay1>
+        <essay2>B+</essay2>
+        <activity1>Pass</activity1>
+        <activity2>Fail</activity2>
+        <essay3>C+</essay3>
+    </grade>
+<!--    2-->
+    <grade>
+        <id>16470212-9851</id>
+        <student>Weber, Lucy X.</student>
+        <test1>32%</test1>
+        <test2>41%</test2>
+        <essay1>C-</essay1>
+        <essay2>B-</essay2>
+        <activity1>Fail</activity1>
+        <activity2>Pass</activity2>
+        <essay3>D+</essay3>
+    </grade>
+    <!--    3-->
+    <grade>
+        <id>16060213-9990</id>
+        <student>Branch, Caesar A.</student>
+        <test1>73%</test1>
+        <test2>81%</test2>
+        <essay1>C-</essay1>
+        <essay2>C+</essay2>
+        <activity1>Pass</activity1>
+        <activity2>Pass</activity2>
+        <essay3>B+</essay3>
+    </grade>
+    <!--    4-->
+    <grade>
+        <id>16720905-9422</id>
+        <student>Beck, Sara K.</student>
+        <test1>66%</test1>
+        <test2>57%</test2>
+        <essay1>C-</essay1>
+        <essay2>D+</essay2>
+        <activity1>Pass</activity1>
+        <activity2>Fail</activity2>
+        <essay3>C-</essay3>
+    </grade>
+    <!--    5-->
+    <grade>
+        <id>16471011-5884</id>
+        <student>Valenzuela, Daphne E.</student>
+        <test1>43%</test1>
+        <test2>45%</test2>
+        <essay1>B+</essay1>
+        <essay2>A-</essay2>
+        <activity1>Fail</activity1>
+        <activity2>Pass</activity2>
+        <essay3>C-</essay3>
+    </grade>
+</grade_data>

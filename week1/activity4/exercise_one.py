@@ -3,7 +3,7 @@ def lifo_pop(my_list):
 
 
 def fifo_pop(my_list):
-    my_list.pop(0)
+    my_list.pop()
 
 
 def program(pop_method):
