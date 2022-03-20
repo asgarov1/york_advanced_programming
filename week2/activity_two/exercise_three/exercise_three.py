@@ -26,7 +26,6 @@ def extract_person(line):
 
 
 def read_updated_csv():
-    global csv_file, json
     with open('PeopleTrainingDateUpdate_cleaned.csv', 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
         result = []
